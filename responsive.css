@@ -1,0 +1,172 @@
+@media screen and (max-width: 700px) {
+  .list {
+    position: fixed;
+    background-color: gray;
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+    top: 0;
+    transition: all 1.5s ease-in-out;
+  }
+  ul {
+    display: block;
+    padding-top: 27px;
+  }
+  .list ul li {
+    margin: 10px 0px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+  .list ul li:first-child {
+    color: white;
+    margin-bottom: 27px;
+    margin-top: -10px;
+    opacity: 1;
+    text-align: right;
+  }
+  .list ul li i {
+    font-size: 15px;
+    margin: 10px;
+    /* color: #425B89; */
+  }
+  .list {
+    position: fixed;
+    left: -100%;
+    z-index: 2;
+  }
+  .icons_line {
+    /* opacity: 1; */
+    display: block;
+  }
+  .list li:hover {
+    background-color: #f1db25;
+    color: black;
+  }
+  .overlay_1{
+    /* display: block; */
+    opacity: 1;
+    left: -100%;
+    transition: all 0.9s ease-in-out;
+  }
+  .show {
+    left: 0;
+  }
+  .nav1 {
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+  }
+  .main {
+    padding-bottom: 30px;
+    height: 100%;
+  }
+  .main1 {
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+  }
+  .main1text{
+    width: 320px;
+    margin-left: 20px;
+  }
+  .headingmain1 h1{
+    font-size: 30px;
+  }
+  .buttonmain1 button{
+    width: 180px;
+    height: 40px;
+
+  }
+  .buttonmain1{
+    display: flex;
+    flex-direction: column;
+    margin-left: -120px;
+
+  }
+  .main2{
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 15px;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .main2text{
+    text-align: center;
+    width: 100%;
+    /* font-size: 7px; */
+    gap: 10px;
+    /* margin: 20px; */
+    /* padding: 20px; */
+}
+  .main2text1  p{
+    width: 100%;
+  }
+ .main2top h1{
+    font-size: 25px;
+  }
+  .main2img{
+    /* width: 304px; */
+    width: 100%;
+    /* margin-right: 50px; */
+  }
+  .line{
+    width: 40px;
+    height: 10px;
+    margin: auto;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .bottommain5 input {
+   min-width: 250px;
+   /* width: 222px; */
+   width: 100%;
+   padding:10px 20px;
+   height: 40px;
+  }
+  .main3button .btn3 {
+    padding: 5px 8px;
+    font-size: 15px;
+  }
+  .nav1,.nav1 i{
+    font-size: 10px;
+  }
+  .inner{
+    margin: 10px 30px;
+  }
+  .topmain6  p{
+    font-size: 12px;
+    margin: 10px;
+  }
+  .image{
+    width: 150px;
+  }
+  .bottommain4 p{
+    font-size: 12px;
+  }
+  .card{
+    font-size: 12px;
+  }
+  .card .btn3{
+    font-size: 15px;
+  }
+  .main4top h1{
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+  }
+  .topmain6{
+    width: 100%;
+  }
+  .image h2 {
+    font-size: 16px;
+  }
+}
+/*imp point*/
+/* display block par bad ma display none kai ho to transition work nhi krti */
